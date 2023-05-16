@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <head>
+        <link rel="icon" href="img/edu.png"/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    
+    <body>
+        <div id="main-container">
+            
+            <h1>Cadastre-se para acessar o Moodle</h1>
+                <form id="register-form">
+                <div class="full-box">
+                    
+                    <label for="email">Email</label>
+                    
+                    <input type="email" name="email" id="email-rg" placeholder="Digite Seu Email">
+                </div>
+                <div class="half-box spacing">  
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name-rg" placeholder="Digite Seu Nome">
+                </div>
+                
+                <div class="half-box">
+                    <label for="name">Sobrenome</label>
+                    <input type="text" name="lastname" id="lastname-rg" placeholder="Digite Seu Sobrenome">
+                </div>
+                
+                <div class="half-box spacing">  
+                    <label for="password">Senha</label>
+                    <input type="password" name="pass" id="pass-rg" placeholder="Digite Sua Senha">
+                    </div>
+                
+                <div class="half-box">
+                    <label for="passconfirmation">Confirme a Senha</label>
+                    <input type="password" name="pass" id="pass-rg" placeholder="Confirme Sua Senha">
+                </div>
+                    
+                    <div class="full-box">
+                    
+                    <label for="name">Responsável</label>
+                    
+                    <input type="texr" name="resp" id="resp-rg" placeholder="Digite o Nome do Seu Responsável">
+                </div>
+                
+                <div class="full-box">
+                    <input type="submit" value="Cadastrar" id="btn-rg">
+                    <a href="./index.html">Já possui conta? Clique aqui para entrar</a>
+                </div>
+            </form> 
+        </div>
+        <p class="error-validation-template"></p>
+    </body>
+</html>
