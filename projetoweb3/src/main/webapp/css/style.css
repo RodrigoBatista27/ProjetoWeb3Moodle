@@ -1,0 +1,142 @@
+#form-login {
+    text-align: center;
+    margin-top: 3%
+}
+
+#form-cadastro {
+    text-align: center;
+}
+
+#user {
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 180px;
+    height: 38px;
+    background-color: blueviolet;
+    color: white;
+    padding: 5px 5px 5px 5px; 
+    cursor: pointer
+}
+
+.field-login {
+    width: 210px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 9pt;
+}
+
+body {
+  font-family: arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+}
+
+#toggle-menu {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: wheat;
+  border: none;
+  z-index: 9999;
+}
+
+.menu-icon {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 5px auto;
+  transition: transform 0.3s;
+}
+
+.opened .menu-icon:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.opened .menu-icon:nth-child(2) {
+  opacity: 0;
+}
+
+.opened .menu-icon:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.menu {
+  background-color: navy;
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: left 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.opened .menu {
+  left: 0;
+}
+
+.menu a {
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+
+
+.content {
+  background-color: #add8e6;
+  width: calc(100% - 250px);
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 250px;
+  padding: 10px;
+  transition: left 0.3s ease-in-out;
+  z-index: 0;
+}
+
+.content h1,
+.content p {
+  text-align: center;
+  color: #333;
+}
+
+/* Estilos para a tabela de faltas */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 50px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: blue;
+  color: white;
+}
+
+tr:hover {background-color:ghostwhite;}
+
+h1 {
+    font-family: arial, sans-serif;
+    text-shadow: 2px 1px grey;
+}
