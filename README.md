@@ -7,8 +7,8 @@
 ```USE db_login;```
 
 \-- Criação da tabela "login"
-``` CREATE TABLE IF NOT EXISTS login (
-  id INT AUTO_INCREMENT PRIMARY KEY,
+```CREATE TABLE IF NOT EXISTS login ('''
+  '''id INT AUTO_INCREMENT PRIMARY KEY,
   usuario VARCHAR(50) NOT NULL,
   senha VARCHAR(50) NOT NULL
 );```
