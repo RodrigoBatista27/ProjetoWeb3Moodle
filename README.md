@@ -1,5 +1,7 @@
 # ProjetoWeb3Moodle
 
+-- Criação do Banco de Dados MySql
+
 ```
 CREATE DATABASE IF NOT EXISTS db_login;
 USE db_login;
