@@ -14,4 +14,4 @@
 );```
 
 \-- Inserção do usuário "Roddy"
-```INSERT INTO login (usuario, senha) VALUES ('Roddy', '123');```
+INSERT INTO login (usuario, senha) VALUES ('Roddy', '123');
