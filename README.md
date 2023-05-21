@@ -10,4 +10,4 @@ CREATE TABLE IF NOT EXISTS login (
   usuario VARCHAR(50) NOT NULL,
   senha VARCHAR(50) NOT NULL
 );
-INSERT INTO login (usuario, senha) VALUES ('Roddy', '123');
+INSERT INTO login (usuario, senha) VALUES ('Roddy@gmail.com', '123');
